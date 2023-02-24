@@ -6,7 +6,7 @@ import java.util.Scanner;
 import Conta.Util.Cores;
 import Model.ContaCorrente;
 import Model.ContaPoupanca;
-import Model.conta;
+
 
 public class Menu {
 	
@@ -16,12 +16,7 @@ public class Menu {
     	
     	//testes 
     	
-    	conta c1= new conta (1,123,1, "Adriana", 10000.00f);
-    	c1.visualizar();
-    	c1.sacar(2000000.00f);
-    	c1.visualizar();
-    	c1.depositar(200.0f);
-    	c1.visualizar();
+   
     	
     	ContaCorrente cc1= new ContaCorrente (2,123, 1,"Marianan", 1500.0f,1000.0f);    	
     	cc1.visualizar();
