@@ -17,6 +17,7 @@ public interface Conta_repository {
 	public void sacar (int numero, float valor);
 	public void depositar(int numero, float valor);
 	public void transferir (int numeroOrigem, int numero);
+	void transferir(int numeroOrigem, int numerodestino, float valor);
 	
 	
 
